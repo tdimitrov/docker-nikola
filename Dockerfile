@@ -8,5 +8,4 @@ RUN apt-get clean
 RUN rm -rf /var/lib/apt/lists/*
 
 WORKDIR /root/workdir
-ENTRYPOINT ["nikola"]
-CMD ["help"]
+CMD ["nikola", "help"]
