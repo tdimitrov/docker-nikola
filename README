@@ -1,3 +1,3 @@
 Intended use is like bash alias:
 
-alias nikola='docker run -ti -p 127.0.0.1:8000:8000 -v ${PWD}:/root/workdir:rw --rm tdimitrov/nikola'
+alias nikola='docker run -ti -p 127.0.0.1:8000:8000 -v ${PWD}:/site:rw --rm tdimitrov/nikola'
