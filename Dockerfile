@@ -1,4 +1,4 @@
-FROM python:3
+FROM python:3.11
 
 RUN apt-get update
 RUN apt-get install -y libxml2-dev libxslt1-dev zlib1g-dev libjpeg-dev python3-dev
